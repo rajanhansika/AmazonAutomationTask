@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SuiteName]">
+  <test name="LogInProcess Test(failed)">
+    <classes>
+      <class name="com.amazonassignment.testcases.SignInPageTest">
+        <methods>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.amazonassignment.testcases.SignInPageTest -->
+      <class name="com.amazonassignment.testcases.LogInProcessTest">
+        <methods>
+          <include name="quit"/>
+          <include name="doLogin"/>
+        </methods>
+      </class> <!-- com.amazonassignment.testcases.LogInProcessTest -->
+      <class name="com.amazonassignment.testcases.LaunchPageTest">
+        <methods>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.amazonassignment.testcases.LaunchPageTest -->
+    </classes>
+  </test> <!-- LogInProcess Test(failed) -->
+</suite> <!-- Failed suite [SuiteName] -->

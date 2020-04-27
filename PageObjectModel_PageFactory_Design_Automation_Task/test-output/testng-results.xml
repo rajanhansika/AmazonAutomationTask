@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SuiteName" duration-ms="117029" started-at="2020-04-27T13:15:46Z" finished-at="2020-04-27T13:17:44Z">
+    <groups>
+    </groups>
+    <test name="LaunchPage Test" duration-ms="12553" started-at="2020-04-27T13:15:46Z" finished-at="2020-04-27T13:15:59Z">
+      <class name="com.amazonassignment.testcases.LaunchPageTest">
+        <test-method status="PASS" signature="testLaunchPage()[pri:0, instance:com.amazonassignment.testcases.LaunchPageTest@2173f6d9]" name="testLaunchPage" duration-ms="10515" started-at="2020-04-27T23:15:46Z" finished-at="2020-04-27T23:15:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLaunchPage -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.amazonassignment.testcases.LaunchPageTest@2173f6d9]" name="quit" is-config="true" duration-ms="2017" started-at="2020-04-27T23:15:57Z" finished-at="2020-04-27T23:15:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.amazonassignment.testcases.LaunchPageTest -->
+    </test> <!-- LaunchPage Test -->
+    <test name="SignIn Test" duration-ms="10889" started-at="2020-04-27T13:15:59Z" finished-at="2020-04-27T13:16:10Z">
+      <class name="com.amazonassignment.testcases.SignInPageTest">
+        <test-method status="PASS" signature="testSignInPage()[pri:0, instance:com.amazonassignment.testcases.SignInPageTest@59906517]" name="testSignInPage" duration-ms="9667" started-at="2020-04-27T23:15:59Z" finished-at="2020-04-27T23:16:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignInPage -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.amazonassignment.testcases.SignInPageTest@59906517]" name="quit" is-config="true" duration-ms="1220" started-at="2020-04-27T23:16:09Z" finished-at="2020-04-27T23:16:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.amazonassignment.testcases.SignInPageTest -->
+    </test> <!-- SignIn Test -->
+    <test name="LogInProcess Test" duration-ms="38809" started-at="2020-04-27T13:16:10Z" finished-at="2020-04-27T13:16:49Z">
+      <class name="com.amazonassignment.testcases.LogInProcessTest">
+        <test-method status="PASS" signature="doLogin()[pri:0, instance:com.amazonassignment.testcases.LogInProcessTest@4923ab24]" name="doLogin" duration-ms="37425" started-at="2020-04-27T23:16:10Z" finished-at="2020-04-27T23:16:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.amazonassignment.testcases.LogInProcessTest@4923ab24]" name="quit" is-config="true" duration-ms="1379" started-at="2020-04-27T23:16:47Z" finished-at="2020-04-27T23:16:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.amazonassignment.testcases.LogInProcessTest -->
+    </test> <!-- LogInProcess Test -->
+    <test name="SearchProcessandLogout Test" duration-ms="54728" started-at="2020-04-27T13:16:49Z" finished-at="2020-04-27T13:17:44Z">
+      <class name="com.amazonassignment.testcases.searchProcessTest">
+        <test-method status="PASS" signature="searcResults()[pri:0, instance:com.amazonassignment.testcases.searchProcessTest@5ed828d]" name="searcResults" duration-ms="53344" started-at="2020-04-27T23:16:49Z" finished-at="2020-04-27T23:17:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searcResults -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.amazonassignment.testcases.searchProcessTest@5ed828d]" name="quit" is-config="true" duration-ms="1369" started-at="2020-04-27T23:17:42Z" finished-at="2020-04-27T23:17:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.amazonassignment.testcases.searchProcessTest -->
+    </test> <!-- SearchProcessandLogout Test -->
+  </suite> <!-- SuiteName -->
+</testng-results>

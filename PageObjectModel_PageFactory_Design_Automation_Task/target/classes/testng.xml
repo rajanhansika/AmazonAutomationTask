@@ -1,0 +1,28 @@
+<suite name="SuiteName">
+	<test name="LaunchPage Test" allow-return-values="true">
+		<classes>
+			<class name="com.amazonassignment.testcases.LaunchPageTest" />
+		</classes>
+	</test>
+	
+	<test name="SignIn Test" allow-return-values="true">
+		<classes>
+			<class name="com.amazonassignment.testcases.SignInPageTest" />
+		</classes>
+	</test>	
+	
+	<test name="LogInProcess Test" allow-return-values="true">
+		<classes>
+			<class name="com.amazonassignment.testcases.LogInProcessTest" />
+		</classes>
+	</test>
+	
+	<test name="SearchProcessandLogout Test" allow-return-values="true">
+		<classes>
+			<class name="com.amazonassignment.testcases.searchProcessTest" />
+		</classes>
+	</test>		
+	
+	
+</suite>
+
